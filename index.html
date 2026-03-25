@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TeamFlow — To-Do List</title>
+<title>FinalProject-Todolists — To-Do List</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -632,10 +632,11 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const MEMBERS = [
-  { id: 'aom', name: 'อ้อม', color: '#6ee7b7', bg: 'rgba(110,231,183,0.2)' },
-  { id: 'bank', name: 'แบงก์', color: '#818cf8', bg: 'rgba(129,140,248,0.2)' },
-  { id: 'cherry', name: 'เชอร์รี่', color: '#fb923c', bg: 'rgba(251,146,60,0.2)' },
-  { id: 'din', name: 'ดิน', color: '#f87171', bg: 'rgba(248,113,113,0.2)' },
+  { id: 'P', name: 'พี', color: '#6ee7b7', bg: 'rgba(110,231,183,0.2)' },
+  { id: 'Pepsi', name: 'แปปซี่', color: '#818cf8', bg: 'rgba(129,140,248,0.2)' },
+  { id: 'Champ', name: 'แชมป์', color: '#fb923c', bg: 'rgba(251,146,60,0.2)' },
+  { id: 'First', name: 'เฟิร์ส', color: '#f87171', bg: 'rgba(248,113,113,0.2)' },
+  { id: 'Home', name: 'โฮม', color: '#f4923c', bg: 'rgba(251,126,60,0.2)' },
 ];
 
 let currentView = 'all';
